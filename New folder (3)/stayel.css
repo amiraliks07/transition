@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+input[type=text]{
+    width: 20%;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-image: url('searchicon.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    transition: width .7s;
+
+}
+
+input[type=text]:focus{
+    width: 80%;
+}

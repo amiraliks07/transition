@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+p{
+    border: 1px solid black;
+   width: 40%;
+  
+   margin: 150px auto;
+   transform: all .5s;
+   
+}
+p:hover{
+    transform: scale(2,2);
+    background-color: aquamarine;
+    box-shadow:  5px 5px 5px rgb(207,211 ,209 ) ;
+cursor: pointer;
+}
